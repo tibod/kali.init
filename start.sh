@@ -44,4 +44,4 @@ chmod +x update.sh
 #toolset import
 mkdir /tools
 cd /tools
-git clone https://github.com/deltaxflux/fluxion.git
+git clone https://github.com/wi-fi-analyzer/fluxion.git
