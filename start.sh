@@ -26,6 +26,13 @@ rm /tmp/msf_config
 #openvas configuration
 #TODO
 
+#lynis repo
+apt-key adv --keyserver keyserver.ubuntu.com --recv-keys C80E383C3DE9F082E01391A0366C67DE91CA5D5F
+apt install apt-transport-https
+echo "deb https://packages.cisofy.com/community/lynis/deb/ stable main" > /etc/apt/sources.list.d/cisofy-lynis.list
+apt update
+apt install lynis
+
 #create upgrade file
 echo "apt-get -y update && apt-get -y upgrade && apt-get -y dist-upgrade && apt-get -y autoremove && apt-get -y autoclean" > update.sh
 echo "openvas-scapdata-sync && openvas-nvt-sync" >> update.sh
