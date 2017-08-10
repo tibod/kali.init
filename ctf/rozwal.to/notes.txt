@@ -1,0 +1,12 @@
+XOR
+
+Releated files:
+xor.php
+
+1. Brute force keys thats decode text to printable characters only
+php xor.php > out.txt
+
+2. Export sentences
+grep -a -E "([A-Za-z]{2,}[ .,]{1,2}){5,}" out.txt > result.txt
+
+3. Browse the result
