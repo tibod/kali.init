@@ -1,6 +1,6 @@
 XOR
 
-Releated files:
+Related files:
 xor.php
 
 1. Brute force keys thats decode text to printable characters only
@@ -10,3 +10,22 @@ php xor.php > out.txt
 grep -a -E "([A-Za-z]{2,}[ .,]{1,2}){5,}" out.txt > result.txt
 
 3. Browse the result
+
+----------------------------------------------------
+
+MISC, h4.php
+
+Related files:
+misc_h3.php
+and then regular QR code reader
+
+----------------------------------------------------
+
+
+----------------------------------------------------
+
+
+----------------------------------------------------
+
+
+----------------------------------------------------
