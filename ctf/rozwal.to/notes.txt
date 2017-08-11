@@ -1,15 +1,18 @@
 XOR
 
 Related files:
-xor.php
+xor1.php
+xor2.php
+xor3.php
 
-1. Brute force keys thats decode text to printable characters only
-php xor.php > out.txt
+1. Brute force possible key chars which result with valid letters
+php xor1.php
 
-2. Export sentences
-grep -a -E "([A-Za-z]{2,}[ .,]{1,2}){5,}" out.txt > result.txt
+2. Edit the script ($key) to decode all sentences
+php xor2.php
 
-3. Browse the result
+3. If somthing is not proper use this to find proper key for know letter
+php xor3.php
 
 ----------------------------------------------------
 
