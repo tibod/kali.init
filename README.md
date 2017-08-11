@@ -1,2 +1,2 @@
-# kali.init
-Scripts to run on KALI after installation
+# Mix of things
+As described by the title...
